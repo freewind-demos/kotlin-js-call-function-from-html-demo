@@ -1,17 +1,15 @@
-Kotlin JS Hello World Demo
-=======================
+Kotlin-js Call Function From Html Demo
+======================================
 
-Hello world from kotlin-js.
-
+Call functions defined by kotlin from HTML code
 
 Run:
 
 ```
-./gradlew clean compileKotlin2Js
-npm install -g http-server
-http-server .
+./gradlew compileKotlin2Js
+open index.html
 ```
 
-Open <http://localhost:8080/index.html> from your browser, you will see "Hello, Kotlin!" in console of your browser's developer panel.
+Click the button on page and you will see an alert.
 
 

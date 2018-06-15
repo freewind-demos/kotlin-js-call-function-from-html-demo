@@ -1,8 +1,8 @@
 package example
 
-fun main(args: Array<String>) {
-    console.log(hello("Kotlin JS"))
-}
+import kotlin.browser.window
 
-fun hello(name:String) = "Hello, $name!"
+fun hello() {
+    window.alert("Hello, KotlinJS")
+}
 
